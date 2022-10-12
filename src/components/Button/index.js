@@ -1,9 +1,13 @@
 import { StyledButton } from "./styled";
 
 function Button(props) {
-  const { title, handleCLick } = props;
+  const { title, variant, handleCLick } = props;
   return (
-    <StyledButton onClick={handleCLick}>{title}</StyledButton>
+    <StyledButton
+      variant={variant}
+      onClick={handleCLick}>
+      {title}
+    </StyledButton>
   )
 }
 

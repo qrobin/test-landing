@@ -5,7 +5,8 @@ function Footer() {
   return (
     <StyledFooter>
       <p>Footer</p>
-      <Button title="Get Started" />
+      <Button variant="primary" fullWidth title="Primary" />
+      <Button variant="secondary" title="Secondary" />
     </StyledFooter>
   )
 }

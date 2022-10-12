@@ -8,4 +8,4 @@ export const palette = {
   lightGrey: 'rgba(238, 239, 241, 1)',
   background: 'rgba(244, 246, 247, 1)',
   white: 'rgba(255, 255, 255, 1)',
-};
+}; // TODO: create functions to generate shades of colors for hover states etc.
