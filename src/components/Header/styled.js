@@ -3,5 +3,5 @@ import theme from "../..//theme";
 
 export const StyledHeader = styled('header')`
   padding: 0px 48px;
-  background-color: ${theme.colors.white};
+  background-color: ${theme.palette.white};
 `
