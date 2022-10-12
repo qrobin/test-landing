@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import theme from "../../common/theme";
+import theme from "../..//theme";
 
 const StyledText = styled(({ type, ...rest }) => <p {...rest} />)`
   ${({ type }) => {

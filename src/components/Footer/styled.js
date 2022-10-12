@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import theme from "../../common/theme";
+import theme from "../../theme";
 
 export const StyledFooter = styled('footer')`
   padding: 49px 150px;
